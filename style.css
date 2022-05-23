@@ -1,0 +1,65 @@
+    @import url('http://fonts.cdnfonts.com/css/aileron');
+     :root {
+        --black: #0F1016;
+        --principal: #D69F63;
+        --principal-1: #BE965D;
+        --principal-2: #976F40;
+        --principal-3: #FFCB85;
+        --principal-4: #976F40;
+        --white: #FFFFFF;
+    }
+    
+    * {
+        scroll-behavior: smooth;
+        font-family: 'Aileron', sans-serif;
+        font-size: calc(2rem);
+        font-weight: lighter;
+        color: white;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: var(--black);
+        text-decoration: none;
+    }
+    
+    .cartel {
+        display: block;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    .header {
+        margin: .5rem .5rem 1rem .5rem;
+        text-align: center;
+    }
+    
+    .header-social {
+        background-color: transparent;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 2vw;
+        left: 80%;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .sticky+.content {
+        padding-top: 60px;
+    }
+    
+    .header-social {
+        width: 3rem;
+        list-style: none;
+    }
+    
+    .social {
+        max-width: 68px;
+    }
+    /*REPRODUCTOR DE MUSICA*/
